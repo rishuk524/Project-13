@@ -7,7 +7,7 @@
 
 ![](https://img.shields.io/badge/Rishu%20srivastava-BCA-orange)
 
-# **Project-13**
+# **Project-13** [Live Link](https://ineuronproject-13.netlify.app/)
 >- Skills gained in this project
  >- I learned how to use flexbox property
  >- I learned about how to use background image in nav-section
