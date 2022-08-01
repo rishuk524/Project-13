@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background: url("../images/bg.svg") no-repeat center center fixed;
+    background-size: cover;
+    height: 80vh;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.logo img{
+    width: 7%;
+    position: relative;
+    top: 30px;
+    left: 40px;   
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10vh;
+    gap: 60px;
+    margin-left: 200px;
+}
+.list .list-item {
+    list-style-type: none;
+    color: #fff;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.list .list-item button{
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    background-color:#5ba0e0;;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-weight: lighter;
+}
+ .list :first-child{
+    text-decoration: underline;
+    color: #5ba0e0;
+    cursor: pointer;
+}
+.header-1 h1{
+    margin-left: 200px;
+    color: #FFF;
+    font-size: 40px;
+    line-height: 45px;
+}
+.header-1 p{
+    margin-left: 200px;
+    color: #FFF;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+ .right img{
+   margin-left: 700px;
+   position: relative;
+   bottom: 250px;
+ }
+ .left .img-2 img{
+    position: relative;
+    bottom: 200px;
+    margin-left: 100px;
+ }
+ .left .header-2 .list{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 550px;
+    gap: 40px;
+ }
+ .list .list-item{
+    text-decoration: none;
+ }
+ .header-2 h2{
+   display: flex;
+   justify-content: flex-end;
+   position: relative;
+   bottom: 560px;
+   right: 50px;
+ }
+ .list .list-item h4{
+    text-decoration: none;
+    color: #000;
+ }
+ .list .list-item p{
+    color: #000;
+    margin-top: 10px;
+ }
+  
+ /* customer section */
+ .customer h2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 800px;
+ }
+ .customer-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+   position: relative;
+   bottom: 700px;
+ }
+ .customer .customer-cards .icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245,56,6, .2);
+    margin: 40px auto 30px auto;
+    border-radius: 500px;
+}
+.customer .customer-cards .icon.analytics {
+    background-color: rgba(255, 193, 58, 0.2);
+}
+.customer .customer-cards .icon.profile {
+    background-color: rgba(101, 255, 58, 0.2);
+}
+.customer .customer-cards .icon.profile img {
+    width: 60px;
+}
+.customer .customer-cards .icon.support {
+    background-color: rgba(235, 58, 255, 0.2);
+}
+.customer .customer-cards .icon.support img {
+    width: 50px;
+}
+.customer .customer-cards .card {
+    max-width: 13rem;
+    box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, .1);
+    border-radius: 20px;
+    overflow: hidden;
+    height: 260px;
+}
+.customer .customer-cards .card:first-child .info {
+    background-color: #542795;
+    color: #FFF;
+}
+.customer .customer-cards .card .info {
+    border-radius: 10px;
+    height: 100%;
+    padding: 4px 10px;
+}
+.customer .customer-cards .card .info h4 {
+    font-size: 17px;
+    font-weight: 500;
+}
+.customer .customer-cards .card .info p {
+    font-size: 13px;
+    margin-top: 4px;
+}
+body{
+    overflow-x: hidden;
+}
